@@ -9,7 +9,7 @@ import useAlert from '@hooks/useAlert';
 export default function Edit() {
   const router = useRouter();
   const [product, setProduct] = useState({});
-  const [open, setOpen] = useState(false);
+  const [_, setOpen] = useState(false);
   const { alert, setAlert, toggleAlert } = useAlert();
 
   useEffect(() => {

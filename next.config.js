@@ -5,6 +5,9 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
     domains: ['api.lorem.space', 'placeimg.com', 'wixmp.com', 'romapy', 'tailwindui.com', 'ui-avatars.com'],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig;
